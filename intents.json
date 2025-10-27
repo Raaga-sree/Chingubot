@@ -1,0 +1,276 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "hi",
+          "hey",
+          "howdy",
+          "hello",
+          "hi there",
+          "greetings",
+          "good morning"
+        ],
+        "responses": [
+          "hey there!",
+          "hello! how can I assist you?",
+          "hi, how's it going?",
+          "hey, nice to see you!",
+          "hi there! what can I do for you today?",
+          "hello! hope you're having a great day!"
+        ]
+      },
+      {
+        "tag": "weather",
+        "patterns": [
+          "what's the weather like today?",
+          "tell me the current weather",
+          "how's the weather outside?",
+          "is it going to rain?",
+          "weather forecast"
+        ],
+        "responses": [
+          "The weather is sunny and warm today.",
+          "Currently, it's partly cloudy with a temperature of 75°F.",
+          "It looks like there might be some showers later in the day.",
+          "The weather forecast predicts clear skies and a high of 80°F.",
+          "Expect a mix of sun and clouds with a chance of rain in the afternoon."
+        ]
+      },
+      {
+        "tag": "hobbies",
+        "patterns": [
+          "what are your hobbies?",
+          "do you have any hobbies?",
+          "tell me about your interests"
+        ],
+        "responses": [
+          "As an AI, I don't have hobbies like humans, but I enjoy helping and learning from users like you!",
+          "I'm here to assist and chat with you, so feel free to ask me anything!",
+          "My main focus is providing useful information and engaging in conversation with you."
+        ]
+      },
+      {
+        "tag": "music",
+        "patterns": [
+          "what's your favorite music genre?",
+          "tell me a song recommendation",
+          "suggest me some music",
+          "any music recommendation",
+          "who's your favorite artist?"
+        ],
+        "responses": [
+          "As an AI, I don't have personal preferences, but I love all kinds of music!",
+          "Here's a great song recommendation: 'Shape of You' by Ed Sheeran.",
+          "I don't have a favorite artist, but I can suggest music based on your taste."
+        ]
+      },
+      {
+        "tag": "movies",
+        "patterns": [
+          "what's a good movie to watch?",
+          "any movie recommendations?",
+          "tell me your favorite movie"
+        ],
+        "responses": [
+          "For action fans, I recommend 'The Dark Knight'.",
+          "If you enjoy comedy, 'The Hangover' is a hilarious movie to watch.",
+          "My favorite movie is 'The Shawshank Redemption', it's a classic!"
+        ]
+      },
+      {
+        "tag": "farewell",
+        "patterns": [
+          "goodbye",
+          "see you later",
+          "talk to you soon",
+          "it was nice chatting with you",
+          "good night"
+        ],
+        "responses": [
+          "Goodbye! Feel free to come back anytime.",
+          "See you later! Have a wonderful day.",
+          "Talk to you soon! Take care.",
+          "It was nice chatting with you too. Have a great day!"
+        ]
+      },
+      {
+        "tag": "informal_question",
+        "patterns": [
+          "what's up?",
+          "how's your day?",
+          "what's new?",
+          "got any plans for the weekend?"
+          
+        ],
+        "responses": [
+          "Not much, just here to chat with you.",
+          "My day is going well. How about yours?",
+          "Nothing much is new. What about you?",
+          "I'm an AI, so I don't have weekend plans, but I'm always here to chat!"
+          
+        ]
+      },
+      {
+        "tag":"joke",
+        "patterns":[
+          "tell me a joke",
+          "say something funny",
+          "do you know any jokes?",
+          "make me laugh"
+        ],
+        "responses":[
+          "Why don't skeletons fight each other?Because they don't have guts!",
+          "Why did the math book look sad? Because it had too many problems!",
+          "I only know 25 letters of the alphabet.I don't know y."
+        ]
+      },
+      {
+        "tag": "formal_question",
+        "patterns": [
+          "could you please provide more information?",
+          "may I ask a question?",
+          "i would like to know about the pricing",
+          "could you elaborate on that?"
+        ],
+        "responses": [
+          "Certainly! I'd be happy to provide more information.",
+          "Of course! Feel free to ask your question.",
+          "Sure, let me tell you about our pricing.",
+          "Absolutely! I'll be happy to elaborate on that topic."
+        ]
+      },
+      
+  
+      {
+        "tag": "math_formulas",
+        "patterns": [
+          "what's the formula for the area of a circle?",
+          "how do I calculate the volume of a cylinder?",
+          "tell me the equation for quadratic functions."
+        ],
+        "responses": [
+          "The formula for the area of a circle is A = π * r^2, where 'r' is the radius.",
+          "To calculate the volume of a cylinder, use V = π * r^2 * h, where 'r' is the radius and 'h' is the height.",
+          "The equation for quadratic functions is y = ax^2 + bx + c, where 'a', 'b', and 'c' are constants."
+        ]
+      },
+      {
+        "tag": "prime_numbers",
+        "patterns": [
+          "is 23 a prime number?",
+          "which numbers less than 50 are prime?",
+          "can you tell me if 13 is prime or composite?"
+        ],
+        "responses": [
+          "Yes, 23 is a prime number because it has no divisors other than 1 and itself.",
+          "Prime numbers less than 50 are: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, and 47.",
+          "13 is a prime number as it has only two distinct positive divisors: 1 and 13."
+        ]
+      },
+      {
+        "tag": "motivation",
+        "patterns": [
+          "i feel demotivated.",
+          "how can I stay motivated?",
+          "i need some motivation.",
+          "i am tired of trying",
+          "feeling low, any motivational words?"
+        ],
+        "responses": [
+          "Remember that every great journey starts with a small step. Keep moving forward!",
+          "Challenges are what make life interesting. Embrace them and stay motivated!",
+          "Believe in yourself, for you are capable of achieving incredible things!",
+          "Your dreams are within reach. Stay focused and motivated to turn them into reality.",
+          "Don't be discouraged by setbacks. They are stepping stones to success. Keep going!"
+        ]
+      },
+  
+      {
+        "tag": "team_building",
+        "patterns": [
+          "how can I build a strong team?",
+          "any tips for fostering teamwork?",
+          "what makes a successful team?"
+        ],
+        "responses": [
+          "Building trust among team members is crucial for a strong and united team.",
+          "Encourage open communication and active listening within your team.",
+          "Recognize and appreciate the unique strengths and contributions of each team member.",
+          "Set clear goals and ensure everyone understands their role in achieving them.",
+          "Plan team-building activities to promote bonding and camaraderie among team members."
+        ]
+      },
+  
+      {
+        "tag": "supporting_others",
+        "patterns": [
+          "how can I support and encourage others?",
+          "what can I do to uplift someone's spirits?",
+          "tips for being a supportive friend?"
+        ],
+        "responses": [
+          "Be a good listener and offer your empathy and understanding.",
+          "Provide words of encouragement and remind them of their strengths.",
+          "Offer a helping hand and let them know you are there for them.",
+          "Celebrate their successes and support them during challenging times.",
+          "Show kindness and spread positivity to make a difference in someone's life."
+        ]
+      },
+  
+      {
+        "tag": "overcoming_adversity",
+        "patterns": [
+          "how do I stay strong during tough times?",
+          "dealing with adversity, any advice?",
+          "tips for overcoming challenges?"
+        ],
+        "responses": [
+          "Remember that challenges are opportunities for growth and resilience.",
+          "Take one step at a time and focus on the solutions rather than the problems.",
+          "Seek support from friends, family, or professionals if needed.",
+          "Maintain a positive outlook and keep reminding yourself of your strengths.",
+          "Believe in your ability to overcome obstacles; you are stronger than you think!"
+        ]
+      },
+    
+      {
+        "tag": "geometry_concepts",
+        "patterns": [
+          "explain what an isosceles triangle is.",
+          "what is the definition of a right angle?",
+          "tell me about the properties of a parallelogram."
+        ],
+        "responses": [
+          "An isosceles triangle is a triangle with at least two sides of equal length and two corresponding angles of equal measure.",
+          "A right angle is an angle that measures exactly 90 degrees.",
+          "The properties of a parallelogram include opposite sides being parallel and congruent, and opposite angles being equal."
+        ]
+      },
+      {
+        "tag": "math_puzzles",
+        "patterns": [
+          "solve the following puzzle: 3 + 3 * 6.",
+          "can you figure out 25 divided by 5 plus 3?",
+          "what's the missing number in this sequence: 2, 4, 6, __, 10?"
+        ],
+        "responses": [
+          "The solution to 3 + 3 * 6 is 21, following the order of operations (PEMDAS).",
+          "25 divided by 5 plus 3 equals 8.",
+          "The missing number in the sequence is 8, as it follows an increment of 2."
+        ]
+      },
+      {
+        "tag": "shakespeare_poems",
+        "patterns": [
+          "read me a poem by Shakespeare.",
+          "share a Shakespearean poem with me.",
+          "let me hear a poem written by Shakespeare."
+        ],
+        "responses": [
+          "Certainly! Here's a beautiful poem by William Shakespeare:\n\nOver hill, over dale,\nThorough bush, thorough brier,\nOver park, over pale,\nThorough flood, thorough fire!\nI do wander everywhere,\nSwifter than the moon's sphere;\nAnd I serve the Fairy Queen,\nTo dew her orbs upon the green;\nThe cowslips tall her pensioners be;\nIn their gold coats spots you see;\nThose be rubies, fairy favours;\nIn those freckles live their savours;\nI must go seek some dewdrops here,\nAnd hang a pearl in every cowslip's ear."
+        ]
+      }
+    ]
+  }
+  
