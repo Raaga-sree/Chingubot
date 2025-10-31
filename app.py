@@ -6,6 +6,7 @@ import re
 import json
 import pickle
 import numpy as np
+import pytz
 import datetime
 from tensorflow.keras.models import load_model
 import nltk
@@ -35,7 +36,8 @@ stemmer = PorterStemmer()
 
 # ----------- 🌞 Time Based Greeting -------------
 def get_greeting():
-    current_hour = datetime.datetime.now().hour
+    india_time=datetime.datetime.now(pytz.timezone("Asia/kolkata"))
+    current_hour = india_time.hour
     if 5 <= current_hour < 12:
         greeting = "Good Morning 🌞"
     elif 12 <= current_hour < 15:
