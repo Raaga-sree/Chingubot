@@ -5,6 +5,7 @@ import json
 import pickle
 import numpy as np
 import datetime
+import pytz
 from tensorflow.keras.models import load_model
 import nltk 
 from nltk.stem import PorterStemmer
@@ -34,7 +35,8 @@ unknown_response=[
 "Hmm..I'm not sure what you mean🤔,but I'm trying my best!!!",
 "Oops,I'm still learning that one🥲",
 "Ahh!! I missed that can you try to asking  me in a different way 🧐??"]
-current_hour=datetime.datetime.now().hour
+india_time=datetime.datetime.now(pytz.timezone("Asia/Kolkata"))
+current_hour=india_time.hour
 if 5<=current_hour<12:
   greeting="Good Morning🌞"
 elif 12<=current_hour<15:
