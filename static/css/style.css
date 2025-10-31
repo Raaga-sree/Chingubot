@@ -62,3 +62,15 @@ button {
     border-radius: 12px 12px 12px 0;
     display: inline-block;
 }
+.typing {
+    font-style: italic;
+    color: #777;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0% { opacity: 0.4; }
+    50% { opacity: 1; }
+    100% { opacity: 0.4; }
+}
+
